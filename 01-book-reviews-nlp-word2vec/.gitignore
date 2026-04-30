@@ -1,0 +1,131 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Python cache / binaries
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs and environment files
+# =========================
+*.log
+.env
+.env.*
+!.env.example
+
+# =========================
+# Raw / private data
+# =========================
+all_data.csv
+hw.docx
+
+# =========================
+# Draft / working notebooks
+# Final notebook to keep:
+# book_reviews_nlp_word2vec.ipynb
+# =========================
+main.ipynb
+*.ipynb.ipynb
+
+# =========================
+# Old / duplicate output folders
+# Keep only the organized outputs/ folder
+# =========================
+important_plots/
+task2_word2vec_outputs/
+
+# =========================
+# Large generated datasets
+# =========================
+preprocessed_book_reviews_task1.csv
+preprocessed_book_reviews.csv
+document_embeddings.csv
+outputs/preprocessed_book_reviews.csv
+outputs/word2vec/document_embeddings.csv
+
+# =========================
+# Large generated model files
+# =========================
+*.model
+*.model.*
+*.kv
+outputs/word2vec/text_review_word2vec.model
+outputs/word2vec/text_review_word2vec.model.*
+
+# =========================
+# Optional large binary / archive outputs
+# =========================
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.zip
+*.tar
+*.gz
+
+# =========================
+# Keep lightweight final outputs
+# =========================
+!outputs/
+!outputs/plots/
+!outputs/word2vec/
+
+!outputs/original_vs_cleaned_examples.csv
+!outputs/word_frequency_before_preprocessing.csv
+!outputs/word_frequency_after_preprocessing.csv
+
+!outputs/plots/*.png
+!outputs/plots/*.pdf
+
+!outputs/word2vec/word_similarity_results.csv
+!outputs/word2vec/word_pair_similarity.csv
+!outputs/word2vec/word2vec_training_summary.md
+!outputs/word2vec/word2vec_pca_top_words.png
+!outputs/word2vec/word2vec_tsne_top_words.png
