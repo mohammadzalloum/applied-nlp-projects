@@ -1,0 +1,35 @@
+text_id,category,entity_text,entity_label,start_char,end_char
+1,Tech News,TechCorp,ORG,0,8
+1,Tech News,New York,GPE,42,50
+1,Tech News,Monday,DATE,65,71
+1,Tech News,Jane Doe,PERSON,81,89
+1,Tech News,AI,GPE,115,117
+1,Tech News,Paris,GPE,181,186
+1,Tech News,next month,DATE,187,197
+1,Tech News,Mark Smith,PERSON,227,237
+1,Tech News,HealthOrg,ORG,329,338
+1,Tech News,Apple,ORG,382,387
+1,Tech News,the Global Tech Summit,ORG,450,472
+1,Tech News,2024,DATE,473,477
+2,Sports News,Lionel Messi,PERSON,0,12
+2,Sports News,Miami,GPE,75,80
+2,Sports News,"July 15, 2023",DATE,87,100
+2,Sports News,Florida,GPE,175,182
+3,Politics,John Harper,PERSON,10,21
+3,Politics,Angela Weber,PERSON,49,61
+3,Politics,Berlin,GPE,65,71
+3,Politics,last Friday,DATE,72,83
+3,Politics,NATO,ORG,95,99
+3,Politics,The United Nations,ORG,110,128
+3,Politics,Geneva,GPE,159,165
+3,Politics,Switzerland,GPE,167,178
+3,Politics,December 2025,DATE,183,196
+3,Politics,Congress,ORG,263,271
+4,Science/Literature,Marie Curie,PERSON,0,11
+4,Science/Literature,Warsaw,GPE,21,27
+4,Science/Literature,1867,DATE,31,35
+4,Science/Literature,1911,DATE,95,99
+4,Science/Literature,Jay Gatsby,PERSON,124,134
+4,Science/Literature,West Egg,GPE,159,167
+4,Science/Literature,New York,GPE,169,177
+4,Science/Literature,Nature Journal,ORG,238,252

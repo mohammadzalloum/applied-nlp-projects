@@ -1,0 +1,45 @@
+category,pos,count
+Politics,PROPN,16
+Politics,NOUN,7
+Politics,PUNCT,7
+Politics,ADP,5
+Politics,VERB,5
+Politics,ADJ,3
+Politics,DET,3
+Politics,AUX,2
+Politics,NUM,2
+Politics,PART,1
+Politics,SCONJ,1
+Science/Literature,PROPN,18
+Science/Literature,PUNCT,10
+Science/Literature,NOUN,9
+Science/Literature,ADP,8
+Science/Literature,VERB,6
+Science/Literature,DET,5
+Science/Literature,ADJ,2
+Science/Literature,NUM,2
+Science/Literature,CCONJ,1
+Science/Literature,PART,1
+Sports News,PROPN,11
+Sports News,NOUN,8
+Sports News,ADP,7
+Sports News,PUNCT,6
+Sports News,DET,5
+Sports News,NUM,4
+Sports News,VERB,4
+Sports News,ADJ,2
+Sports News,AUX,1
+Sports News,PART,1
+Sports News,SYM,1
+Tech News,PROPN,17
+Tech News,PUNCT,16
+Tech News,NOUN,15
+Tech News,VERB,15
+Tech News,DET,9
+Tech News,ADP,7
+Tech News,ADJ,4
+Tech News,AUX,3
+Tech News,PART,3
+Tech News,ADV,2
+Tech News,SCONJ,2
+Tech News,NUM,1

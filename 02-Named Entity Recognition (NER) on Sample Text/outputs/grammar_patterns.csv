@@ -1,0 +1,28 @@
+text_id,category,pattern_type,subject,verb,object,sentence
+1,Tech News,subject_verb,Doe,plans,,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone."
+1,Tech News,subject_verb,device,debut,,"The device, named 'Nexus X,' will debut in Paris next month."
+1,Tech News,subject_verb,critics,argue,,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies."
+1,Tech News,subject_verb,launch,impact,,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies."
+1,Tech News,subject_verb,company,partnered,,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness."
+1,Tech News,subject_verb,Apple,declined,,Apple declined to comment on the news.
+1,Tech News,subject_verb,event,coincide,,The event will coincide with the Global Tech Summit 2024.
+2,Sports News,subject_verb,Messi,signed,,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023."
+2,Sports News,subject_verb,deal,announced,,The deal was announced during a press conference at Hard Rock Stadium in Florida.
+2,Sports News,subject_verb,Fans,flooded,,Fans from across South America flooded social media to celebrate the move.
+3,Politics,subject_verb,Harper,met,,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.
+3,Politics,subject_verb,Nations,host,,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025."
+3,Politics,subject_verb,Critics,warn,,Critics warn that the new tax law (HB 1420) might face delays in Congress.
+3,Politics,subject_verb,law,face,,Critics warn that the new tax law (HB 1420) might face delays in Congress.
+4,Science/Literature,subject_verb,Curie,discovered,,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911."
+1,Tech News,verb_object,,introduce,smartphone,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone."
+1,Tech News,verb_object,,impact,policies,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies."
+1,Tech News,verb_object,,promote,wellness,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness."
+2,Sports News,verb_object,,signed,contract,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023."
+2,Sports News,verb_object,,flooded,media,Fans from across South America flooded social media to celebrate the move.
+2,Sports News,verb_object,,celebrate,move,Fans from across South America flooded social media to celebrate the move.
+3,Politics,verb_object,,discuss,policies,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.
+3,Politics,verb_object,,host,summit,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025."
+3,Politics,verb_object,,face,delays,Critics warn that the new tax law (HB 1420) might face delays in Congress.
+4,Science/Literature,verb_object,,discovered,radium,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911."
+4,Science/Literature,verb_object,,won,Prize,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911."
+4,Science/Literature,verb_object,,reflecting,excesses,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age."

@@ -1,0 +1,80 @@
+[
+    {
+        "entity_text":"TechCorp",
+        "entity_label":"ORG",
+        "start_char":0,
+        "end_char":8
+    },
+    {
+        "entity_text":"Nexus X",
+        "entity_label":"TECHNOLOGY",
+        "start_char":24,
+        "end_char":31
+    },
+    {
+        "entity_text":"AI-powered smartphone",
+        "entity_label":"TECHNOLOGY",
+        "start_char":38,
+        "end_char":59
+    },
+    {
+        "entity_text":"Digital Wellness",
+        "entity_label":"TECHNOLOGY",
+        "start_char":80,
+        "end_char":96
+    },
+    {
+        "entity_text":"machine learning platform",
+        "entity_label":"TECHNOLOGY",
+        "start_char":133,
+        "end_char":158
+    },
+    {
+        "entity_text":"natural language processing",
+        "entity_label":"TECHNOLOGY",
+        "start_char":163,
+        "end_char":190
+    },
+    {
+        "entity_text":"cloud computing",
+        "entity_label":"TECHNOLOGY",
+        "start_char":225,
+        "end_char":240
+    },
+    {
+        "entity_text":"neural network",
+        "entity_label":"TECHNOLOGY",
+        "start_char":245,
+        "end_char":259
+    },
+    {
+        "entity_text":"AI assistant",
+        "entity_label":"TECHNOLOGY",
+        "start_char":285,
+        "end_char":297
+    },
+    {
+        "entity_text":"Apple",
+        "entity_label":"ORG",
+        "start_char":306,
+        "end_char":311
+    },
+    {
+        "entity_text":"Samsung",
+        "entity_label":"ORG",
+        "start_char":316,
+        "end_char":323
+    },
+    {
+        "entity_text":"smartphone",
+        "entity_label":"TECHNOLOGY",
+        "start_char":361,
+        "end_char":371
+    },
+    {
+        "entity_text":"next year",
+        "entity_label":"DATE",
+        "start_char":381,
+        "end_char":390
+    }
+]

@@ -1,0 +1,22 @@
+category,entity_label,count
+Politics,GPE,3
+Politics,ORG,3
+Politics,DATE,2
+Politics,PERSON,2
+Politics,NORP,1
+Science/Literature,GPE,3
+Science/Literature,DATE,2
+Science/Literature,PERSON,2
+Science/Literature,WORK_OF_ART,2
+Science/Literature,ORG,1
+Sports News,GPE,2
+Sports News,DATE,1
+Sports News,FAC,1
+Sports News,LOC,1
+Sports News,MONEY,1
+Sports News,NORP,1
+Sports News,PERSON,1
+Tech News,ORG,4
+Tech News,DATE,3
+Tech News,GPE,3
+Tech News,PERSON,2

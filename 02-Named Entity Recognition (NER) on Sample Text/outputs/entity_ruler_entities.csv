@@ -1,0 +1,14 @@
+entity_text,entity_label,start_char,end_char
+TechCorp,ORG,0,8
+Nexus X,TECHNOLOGY,24,31
+AI-powered smartphone,TECHNOLOGY,38,59
+Digital Wellness,TECHNOLOGY,80,96
+machine learning platform,TECHNOLOGY,133,158
+natural language processing,TECHNOLOGY,163,190
+cloud computing,TECHNOLOGY,225,240
+neural network,TECHNOLOGY,245,259
+AI assistant,TECHNOLOGY,285,297
+Apple,ORG,306,311
+Samsung,ORG,316,323
+smartphone,TECHNOLOGY,361,371
+next year,DATE,381,390

@@ -1,0 +1,259 @@
+text_id,category,sentence_id,sentence,token,lemma,pos,tag,dependency,head_token,is_alpha,is_stop
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",TechCorp,TechCorp,PROPN,NNP,ROOT,TechCorp,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",",",",",PUNCT,",",punct,TechCorp,False,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",a,a,DET,DT,det,company,True,True
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",leading,lead,VERB,VBG,amod,company,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",tech,tech,NOUN,NN,compound,company,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",company,company,NOUN,NN,appos,TechCorp,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",based,base,VERB,VBN,acl,company,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",in,in,ADP,IN,prep,based,True,True
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",New,New,PROPN,NNP,compound,York,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",York,York,PROPN,NNP,pobj,in,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",",",",",PUNCT,",",punct,TechCorp,False,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",announced,announce,VERB,VBN,acl,TechCorp,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",on,on,ADP,IN,prep,announced,True,True
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",Monday,Monday,PROPN,NNP,pobj,on,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",that,that,SCONJ,IN,mark,plans,True,True
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",CEO,ceo,NOUN,NN,compound,Doe,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",Jane,Jane,PROPN,NNP,compound,Doe,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",Doe,Doe,PROPN,NNP,nsubj,plans,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",plans,plan,VERB,VBZ,ccomp,announced,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",to,to,PART,TO,aux,introduce,True,True
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",introduce,introduce,VERB,VB,xcomp,plans,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",a,a,DET,DT,det,smartphone,True,True
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",new,new,ADJ,JJ,amod,smartphone,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",AI,AI,PROPN,NNP,npadvmod,powered,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",-,-,PUNCT,HYPH,punct,powered,False,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",powered,power,VERB,VBN,amod,smartphone,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",smartphone,smartphone,NOUN,NN,dobj,introduce,True,False
+1,Tech News,1,"TechCorp, a leading tech company based in New York, announced on Monday that CEO Jane Doe plans to introduce a new AI-powered smartphone.",.,.,PUNCT,.,punct,TechCorp,False,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",The,the,DET,DT,det,device,True,True
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",device,device,NOUN,NN,nsubj,debut,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",",",",",PUNCT,",",punct,device,False,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",named,name,VERB,VBN,acl,device,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",',',PUNCT,``,punct,named,False,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",Nexus,Nexus,PROPN,NNP,compound,X,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",X,x,NOUN,NN,oprd,named,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",",",",",PUNCT,",",punct,device,False,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",',',PUNCT,'',punct,device,False,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",will,will,AUX,MD,aux,debut,True,True
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",debut,debut,VERB,VB,ROOT,debut,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",in,in,ADP,IN,prep,debut,True,True
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",Paris,Paris,PROPN,NNP,pobj,in,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",next,next,ADJ,JJ,amod,month,True,True
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",month,month,NOUN,NN,npadvmod,debut,True,False
+1,Tech News,2,"The device, named 'Nexus X,' will debut in Paris next month.",.,.,PUNCT,.,punct,debut,False,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",Meanwhile,meanwhile,ADV,RB,advmod,argue,True,True
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",",",",",PUNCT,",",punct,argue,False,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",critics,critic,NOUN,NNS,nsubj,argue,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",like,like,ADP,IN,prep,critics,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",Dr.,Dr.,PROPN,NNP,compound,Smith,False,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",Mark,Mark,PROPN,NNP,compound,Smith,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",Smith,Smith,PROPN,NNP,pobj,like,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",argue,argue,VERB,VBP,ROOT,argue,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",that,that,SCONJ,IN,mark,impact,True,True
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",the,the,DET,DT,det,launch,True,True
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",launch,launch,NOUN,NN,nsubj,impact,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",could,could,AUX,MD,aux,impact,True,True
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",impact,impact,VERB,VB,ccomp,argue,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",environmental,environmental,ADJ,JJ,amod,policies,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",policies,policy,NOUN,NNS,dobj,impact,True,False
+1,Tech News,3,"Meanwhile, critics like Dr. Mark Smith argue that the launch could impact environmental policies.",.,.,PUNCT,.,punct,argue,False,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",The,the,DET,DT,det,company,True,True
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",company,company,NOUN,NN,nsubj,partnered,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",also,also,ADV,RB,advmod,partnered,True,True
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",partnered,partner,VERB,VBD,ROOT,partnered,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",with,with,ADP,IN,prep,partnered,True,True
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",HealthOrg,HealthOrg,PROPN,NNP,pobj,with,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",",",",",PUNCT,",",punct,HealthOrg,False,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",a,a,DET,DT,det,nonprofit,True,True
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",nonprofit,nonprofit,NOUN,NN,appos,HealthOrg,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",",",",",PUNCT,",",punct,HealthOrg,False,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",to,to,PART,TO,aux,promote,True,True
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",promote,promote,VERB,VB,advcl,partnered,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",digital,digital,ADJ,JJ,amod,wellness,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",wellness,wellness,NOUN,NN,dobj,promote,True,False
+1,Tech News,4,"The company also partnered with HealthOrg, a nonprofit, to promote digital wellness.",.,.,PUNCT,.,punct,partnered,False,False
+1,Tech News,5,Apple declined to comment on the news.,Apple,Apple,PROPN,NNP,nsubj,declined,True,False
+1,Tech News,5,Apple declined to comment on the news.,declined,decline,VERB,VBD,ROOT,declined,True,False
+1,Tech News,5,Apple declined to comment on the news.,to,to,PART,TO,aux,comment,True,True
+1,Tech News,5,Apple declined to comment on the news.,comment,comment,VERB,VB,xcomp,declined,True,False
+1,Tech News,5,Apple declined to comment on the news.,on,on,ADP,IN,prep,comment,True,True
+1,Tech News,5,Apple declined to comment on the news.,the,the,DET,DT,det,news,True,True
+1,Tech News,5,Apple declined to comment on the news.,news,news,NOUN,NN,pobj,on,True,False
+1,Tech News,5,Apple declined to comment on the news.,.,.,PUNCT,.,punct,declined,False,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,The,the,DET,DT,det,event,True,True
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,event,event,NOUN,NN,nsubj,coincide,True,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,will,will,AUX,MD,aux,coincide,True,True
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,coincide,coincide,VERB,VB,ROOT,coincide,True,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,with,with,ADP,IN,prep,coincide,True,True
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,the,the,DET,DT,det,Summit,True,True
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,Global,Global,PROPN,NNP,compound,Summit,True,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,Tech,Tech,PROPN,NNP,compound,Summit,True,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,Summit,Summit,PROPN,NNP,pobj,with,True,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,2024,2024,NUM,CD,nummod,Summit,False,False
+1,Tech News,6,The event will coincide with the Global Tech Summit 2024.,.,.,PUNCT,.,punct,coincide,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",Lionel,Lionel,PROPN,NNP,compound,Messi,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",Messi,Messi,PROPN,NNP,nsubj,signed,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",",",",",PUNCT,",",punct,Messi,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",the,the,DET,DT,det,footballer,True,True
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",Argentine,argentine,ADJ,JJ,compound,footballer,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",footballer,footballer,NOUN,NN,appos,Messi,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",",",",",PUNCT,",",punct,Messi,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",signed,sign,VERB,VBD,ROOT,signed,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",a,a,DET,DT,det,contract,True,True
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",$,$,SYM,$,quantmod,million,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",20,20,NUM,CD,compound,million,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",million,million,NUM,CD,nummod,contract,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",contract,contract,NOUN,NN,dobj,signed,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",with,with,ADP,IN,prep,contract,True,True
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",Miami,Miami,PROPN,NNP,compound,FC,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",FC,FC,PROPN,NNP,pobj,with,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",on,on,ADP,IN,prep,signed,True,True
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",July,July,PROPN,NNP,pobj,on,True,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",15,15,NUM,CD,nummod,July,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",",",",",PUNCT,",",punct,July,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",2023,2023,NUM,CD,nummod,July,False,False
+2,Sports News,1,"Lionel Messi, the Argentine footballer, signed a $20 million contract with Miami FC on July 15, 2023.",.,.,PUNCT,.,punct,signed,False,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,The,the,DET,DT,det,deal,True,True
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,deal,deal,NOUN,NN,nsubjpass,announced,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,was,be,AUX,VBD,auxpass,announced,True,True
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,announced,announce,VERB,VBN,ROOT,announced,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,during,during,ADP,IN,prep,announced,True,True
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,a,a,DET,DT,det,conference,True,True
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,press,press,NOUN,NN,compound,conference,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,conference,conference,NOUN,NN,pobj,during,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,at,at,ADP,IN,prep,conference,True,True
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,Hard,Hard,PROPN,NNP,compound,Stadium,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,Rock,Rock,PROPN,NNP,compound,Stadium,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,Stadium,Stadium,PROPN,NNP,pobj,at,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,in,in,ADP,IN,prep,Stadium,True,True
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,Florida,Florida,PROPN,NNP,pobj,in,True,False
+2,Sports News,2,The deal was announced during a press conference at Hard Rock Stadium in Florida.,.,.,PUNCT,.,punct,announced,False,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,Fans,fan,NOUN,NNS,nsubj,flooded,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,from,from,ADP,IN,prep,Fans,True,True
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,across,across,ADP,IN,prep,from,True,True
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,South,South,PROPN,NNP,compound,America,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,America,America,PROPN,NNP,pobj,across,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,flooded,flood,VERB,VBD,ROOT,flooded,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,social,social,ADJ,JJ,amod,media,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,media,medium,NOUN,NNS,dobj,flooded,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,to,to,PART,TO,aux,celebrate,True,True
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,celebrate,celebrate,VERB,VB,advcl,flooded,True,False
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,the,the,DET,DT,det,move,True,True
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,move,move,NOUN,NN,dobj,celebrate,True,True
+2,Sports News,3,Fans from across South America flooded social media to celebrate the move.,.,.,PUNCT,.,punct,flooded,False,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,President,President,PROPN,NNP,compound,Harper,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,John,John,PROPN,NNP,compound,Harper,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,Harper,Harper,PROPN,NNP,nsubj,met,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,met,meet,VERB,VBD,ROOT,met,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,with,with,ADP,IN,prep,met,True,True
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,German,german,ADJ,JJ,amod,Chancellor,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,Chancellor,Chancellor,PROPN,NNP,compound,Weber,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,Angela,Angela,PROPN,NNP,compound,Weber,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,Weber,Weber,PROPN,NNP,pobj,with,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,in,in,ADP,IN,prep,met,True,True
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,Berlin,Berlin,PROPN,NNP,pobj,in,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,last,last,ADJ,JJ,amod,Friday,True,True
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,Friday,Friday,PROPN,NNP,npadvmod,met,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,to,to,PART,TO,aux,discuss,True,True
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,discuss,discuss,VERB,VB,advcl,met,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,NATO,NATO,PROPN,NNP,compound,policies,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,policies,policy,NOUN,NNS,dobj,discuss,True,False
+3,Politics,1,President John Harper met with German Chancellor Angela Weber in Berlin last Friday to discuss NATO policies.,.,.,PUNCT,.,punct,met,False,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",The,the,DET,DT,det,Nations,True,True
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",United,United,PROPN,NNP,compound,Nations,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",Nations,Nations,PROPN,NNP,nsubj,host,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",will,will,AUX,MD,aux,host,True,True
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",host,host,VERB,VB,ROOT,host,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",a,a,DET,DT,det,summit,True,True
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",climate,climate,NOUN,NN,compound,summit,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",summit,summit,NOUN,NN,dobj,host,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",in,in,ADP,IN,prep,summit,True,True
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",Geneva,Geneva,PROPN,NNP,pobj,in,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",",",",",PUNCT,",",punct,Geneva,False,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",Switzerland,Switzerland,PROPN,NNP,appos,Geneva,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",",",",",PUNCT,",",punct,Geneva,False,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",in,in,ADP,IN,prep,host,True,True
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",December,December,PROPN,NNP,pobj,in,True,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",2025,2025,NUM,CD,nummod,December,False,False
+3,Politics,2,"The United Nations will host a climate summit in Geneva, Switzerland, in December 2025.",.,.,PUNCT,.,punct,host,False,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,Critics,critic,NOUN,NNS,nsubj,warn,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,warn,warn,VERB,VBP,ROOT,warn,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,that,that,SCONJ,IN,mark,face,True,True
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,the,the,DET,DT,det,law,True,True
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,new,new,ADJ,JJ,amod,law,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,tax,tax,NOUN,NN,compound,law,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,law,law,NOUN,NN,nsubj,face,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,(,(,PUNCT,-LRB-,punct,law,False,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,HB,HB,PROPN,NNP,appos,law,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,1420,1420,NUM,CD,nummod,HB,False,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,),),PUNCT,-RRB-,punct,law,False,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,might,might,AUX,MD,aux,face,True,True
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,face,face,VERB,VB,ccomp,warn,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,delays,delay,NOUN,NNS,dobj,face,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,in,in,ADP,IN,prep,delays,True,True
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,Congress,Congress,PROPN,NNP,pobj,in,True,False
+3,Politics,3,Critics warn that the new tax law (HB 1420) might face delays in Congress.,.,.,PUNCT,.,punct,warn,False,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",Marie,Marie,PROPN,NNP,compound,Curie,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",Curie,Curie,PROPN,NNP,nsubj,discovered,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",",",",",PUNCT,",",punct,Curie,False,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",born,bear,VERB,VBN,acl,Curie,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",in,in,ADP,IN,prep,born,True,True
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",Warsaw,Warsaw,PROPN,NNP,pobj,in,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",in,in,ADP,IN,prep,born,True,True
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",1867,1867,NUM,CD,pobj,in,False,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",",",",",PUNCT,",",punct,Curie,False,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",discovered,discover,VERB,VBD,ROOT,discovered,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",radium,radium,NOUN,NN,dobj,discovered,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",and,and,CCONJ,CC,cc,discovered,True,True
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",won,win,VERB,VBD,conj,discovered,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",the,the,DET,DT,det,Prize,True,True
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",Nobel,Nobel,PROPN,NNP,compound,Prize,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",Prize,Prize,PROPN,NNP,dobj,won,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",in,in,ADP,IN,prep,Prize,True,True
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",Chemistry,Chemistry,PROPN,NNP,pobj,in,True,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",in,in,ADP,IN,prep,won,True,True
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",1911,1911,NUM,CD,pobj,in,False,False
+4,Science/Literature,1,"Marie Curie, born in Warsaw in 1867, discovered radium and won the Nobel Prize in Chemistry in 1911.",.,.,PUNCT,.,punct,discovered,False,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",In,in,ADP,IN,ROOT,In,True,True
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.","""","""",PUNCT,``,punct,Gatsby,False,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",The,the,DET,DT,det,Gatsby,True,True
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Great,Great,PROPN,NNP,compound,Gatsby,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Gatsby,Gatsby,PROPN,NNP,pobj,In,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",",",",",PUNCT,",",punct,parties,False,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.","""","""",PUNCT,'',punct,",",False,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Jay,Jay,PROPN,NNP,compound,Gatsby,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Gatsby,Gatsby,PROPN,NNP,compound,hosts,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",hosts,host,NOUN,NNS,nmod,parties,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",lavish,lavish,VERB,VBP,amod,parties,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",parties,party,NOUN,NNS,pobj,In,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",in,in,ADP,IN,prep,parties,True,True
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",West,West,PROPN,NNP,compound,Egg,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Egg,Egg,PROPN,NNP,pobj,in,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",",",",",PUNCT,",",punct,Egg,False,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",New,New,PROPN,NNP,compound,York,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",York,York,PROPN,NNP,appos,Egg,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",",",",",PUNCT,",",punct,parties,False,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",reflecting,reflect,VERB,VBG,acl,parties,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",the,the,DET,DT,det,excesses,True,True
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",excesses,excess,NOUN,NNS,dobj,reflecting,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",of,of,ADP,IN,prep,excesses,True,True
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",the,the,DET,DT,det,Age,True,True
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Jazz,Jazz,PROPN,NNP,compound,Age,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",Age,Age,PROPN,NNP,pobj,of,True,False
+4,Science/Literature,2,"In ""The Great Gatsby,"" Jay Gatsby hosts lavish parties in West Egg, New York, reflecting the excesses of the Jazz Age.",.,.,PUNCT,.,punct,In,False,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,A,a,DET,DT,det,study,True,True
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,recent,recent,ADJ,JJ,amod,study,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,study,study,NOUN,NN,nmod,links,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,in,in,ADP,IN,prep,study,True,True
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,Nature,Nature,PROPN,NNP,compound,Journal,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,Journal,Journal,PROPN,NNP,pobj,in,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,links,link,NOUN,NNS,ROOT,links,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,sleep,sleep,NOUN,NN,compound,deprivation,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,deprivation,deprivation,NOUN,NN,dobj,links,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,to,to,PART,TO,prep,links,True,True
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,decreased,decrease,VERB,VBN,amod,performance,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,cognitive,cognitive,ADJ,JJ,amod,performance,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,performance,performance,NOUN,NN,pobj,to,True,False
+4,Science/Literature,3,A recent study in Nature Journal links sleep deprivation to decreased cognitive performance.,.,.,PUNCT,.,punct,links,False,False

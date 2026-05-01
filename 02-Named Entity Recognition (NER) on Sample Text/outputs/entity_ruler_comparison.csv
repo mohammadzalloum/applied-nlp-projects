@@ -1,0 +1,22 @@
+version,entity_text,entity_label
+without_entity_ruler,TechCorp,ORG
+without_entity_ruler,Nexus,ORG
+without_entity_ruler,AI,GPE
+without_entity_ruler,Digital Wellness,ORG
+without_entity_ruler,AI,ORG
+without_entity_ruler,Apple,ORG
+without_entity_ruler,Samsung,ORG
+without_entity_ruler,next year,DATE
+with_entity_ruler,TechCorp,ORG
+with_entity_ruler,Nexus X,TECHNOLOGY
+with_entity_ruler,AI-powered smartphone,TECHNOLOGY
+with_entity_ruler,Digital Wellness,TECHNOLOGY
+with_entity_ruler,machine learning platform,TECHNOLOGY
+with_entity_ruler,natural language processing,TECHNOLOGY
+with_entity_ruler,cloud computing,TECHNOLOGY
+with_entity_ruler,neural network,TECHNOLOGY
+with_entity_ruler,AI assistant,TECHNOLOGY
+with_entity_ruler,Apple,ORG
+with_entity_ruler,Samsung,ORG
+with_entity_ruler,smartphone,TECHNOLOGY
+with_entity_ruler,next year,DATE
