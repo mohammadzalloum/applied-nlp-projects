@@ -91,3 +91,59 @@ Generated outputs:
 
 Goal:
 Compare a lexicon-based sentiment analysis method with neural sequence models and evaluate their strengths, weaknesses, performance, interpretability, training cost, and ability to handle contextual sentiment.
+
+---
+
+---
+
+### 4. Jena Climate Temperature Forecasting System
+
+**Folder:** `04-Time Series Forecasting with LSTMGRU`
+
+This project implements an end-to-end time series forecasting system using the Jena Climate dataset. The goal is to predict future temperature values based on historical climate measurements recorded at 10-minute intervals.
+
+The project includes data cleaning, exploratory analysis, time-aware preprocessing, memory-safe forecast window generation, baseline modeling, LSTM and GRU model training, evaluation, visualization, and final reporting.
+
+**Main topics:**
+
+- Time series forecasting
+- Climate data analysis
+- Data cleaning and preprocessing
+- Chronological train/validation/test splitting
+- Feature scaling without data leakage
+- Sliding window sequence generation
+- Persistence baseline modeling
+- LSTM modeling
+- GRU modeling
+- Early stopping and model checkpointing
+- Regression evaluation using MAE and RMSE
+- Actual vs predicted visualization
+- Model comparison and reporting
+
+**Models used:**
+
+- Persistence Baseline
+- LSTM
+- GRU
+
+**Generated outputs:**
+
+- Model comparison results
+- Scaled dataset evaluation
+- Temperature prediction results
+- Feature correlation analysis
+- Daily climate trend plots
+- LSTM and GRU training history plots
+- Actual vs predicted temperature plot
+- Final forecasting report
+
+**Final results:**
+
+| Model | Test MAE (°C) | Test RMSE (°C) |
+|---|---:|---:|
+| Persistence Baseline | 0.156399 | 0.235913 |
+| LSTM | 0.229640 | 0.326621 |
+| GRU | 0.161125 | 0.227562 |
+
+**Goal:**  
+Build a practical temperature forecasting pipeline, compare recurrent neural network models against a strong baseline, and evaluate how well LSTM and GRU models can predict short-horizon climate values.
