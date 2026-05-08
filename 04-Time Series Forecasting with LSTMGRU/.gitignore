@@ -78,14 +78,6 @@ hw.docx
 data/*.docx
 Data card.docx
 
-# ================================
-# Trained model artifacts
-# ================================
-models/
-outputs/models/
-*.keras
-*.h5
-*.weights.h5
 
 # ================================
 # Duplicate root-level generated outputs
