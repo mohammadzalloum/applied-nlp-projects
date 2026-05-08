@@ -1,5 +1,0 @@
-method,type,interpretability,computational_requirements,context_handling,sarcasm_handling,need_for_labeled_data,best_use_case,main_limitation
-VADER,Lexicon-based,High,Very low,Limited,Weak,No training labels required,"Short tweets, quick baseline, limited resources","Weak with sarcasm, slang, and context-dependent meaning"
-Simple RNN,Neural network,Low,Medium,Weak for long text,Possible only if trained on relevant examples,Required,Basic sequence modeling baseline,Overfitting and vanishing gradients
-LSTM,Neural network,Low,High,Strong,Possible only if trained on relevant examples,Required,Long reviews and context-heavy text,Slower training and higher computational cost
-GRU,Neural network,Low,Medium to high,Strong,Possible only if trained on relevant examples,Required,Strong performance with faster training than LSTM,Still requires labeled data and hyperparameter tuning
