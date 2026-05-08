@@ -1,0 +1,132 @@
+
+# Python cache and build artifacts
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ================================
+# Virtual environments
+# ================================
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# Ignore all notebooks except the final project notebook
+*.ipynb
+!jena_climate_forecasting.ipynb
+
+# Ignore Python scripts if this repository is notebook-based
+*.py
+
+# ================================
+# IDE and editor files
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Logs, cache, and temporary files
+# ================================
+*.log
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ================================
+# Environment variables and secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Raw datasets and private assignment files
+# ================================
+data/*.csv
+data/*.zip
+data/*.gz
+data/*.parquet
+jena_climate_2009_2016.csv
+*.csv.gz
+*.parquet
+
+hw.docx
+data/*.docx
+Data card.docx
+
+# ================================
+# Trained model artifacts
+# ================================
+models/
+outputs/models/
+*.keras
+*.h5
+*.weights.h5
+
+# ================================
+# Duplicate root-level generated outputs
+# Keep generated outputs under outputs/ only
+# ================================
+model_comparison_results.csv
+temperature_predictions.csv
+scaled_dataset_evaluation.csv
+feature_correlation_temperature.csv
+
+# ================================
+# Keep final project outputs
+# ================================
+!outputs/
+!outputs/plots/
+!outputs/plots/*.png
+!outputs/reports/
+!outputs/reports/*.md
+!outputs/*.csv
+
+# ================================
+# Keep important project files
+# ================================
+!README.md
+!requirements.txt
+!setup.sh
+!.gitignore
+!jena_climate_forecasting.ipynb
+
+# ================================
+# Files that should stay tracked
+# ================================
+!README.md
+!requirements.txt
+!setup.sh
+!.gitignore
+
+# =========================
+# Project-specific files
+# =========================
+hw.docx
+
+data/*.csv
+jena_climate_2009_2016.csv

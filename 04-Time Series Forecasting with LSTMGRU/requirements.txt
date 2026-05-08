@@ -1,0 +1,16 @@
+# Core data science
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.4
+
+# Deep learning
+tensorflow>=2.16
+
+# Jupyter environment
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.29
+
+# Optional but useful
+tqdm>=4.66
