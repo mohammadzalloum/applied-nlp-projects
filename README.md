@@ -1,7 +1,6 @@
 # Applied NLP Projects
 
-A collection of applied Natural Language Processing (NLP) projects covering text preprocessing, Word2Vec, named entity recognition, POS tagging, rule-based entity extraction, and NLP visualization.
-
+A collection of applied Natural Language Processing (NLP) projects covering text preprocessing, Word2Vec, named entity recognition, POS tagging, rule-based entity extraction, sentiment analysis, recurrent neural networks, model evaluation, and NLP visualization.
 ---
 
 ## Projects
@@ -48,3 +47,47 @@ This project applies a complete NLP pipeline using spaCy on a multi-domain text 
 
 ```text
 TECHNOLOGY
+```
+---
+
+3. Sentiment Analysis & Classification Evaluation
+
+Folder: 03-Sentiment Analysis & Classification Evaluation( Vader Vs RNNGRU)
+
+This project compares rule-based sentiment analysis with recurrent neural network models using two different sentiment datasets.
+
+The project includes a VADER sentiment analysis workflow for Twitter tweets and neural sentiment classification models on IMDB movie reviews using Simple RNN, LSTM, and GRU.
+
+Main topics:
+
+- Sentiment analysis
+- Text preprocessing
+- VADER rule-based sentiment classification
+- IMDB review classification
+- Simple RNN modeling
+- LSTM modeling
+- GRU modeling
+- Classification metrics
+- Confusion matrix analysis
+- Accuracy and loss curve visualization
+- Model comparison and critical analysis
+
+Models used:
+
+- VADER
+- Simple RNN
+- LSTM
+- GRU
+
+Generated outputs:
+
+- VADER predictions and metrics
+- Classification reports
+- Confusion matrices
+- Training history files
+- Accuracy and loss curves
+- Final performance comparison table
+- Critical analysis report
+
+Goal:
+Compare a lexicon-based sentiment analysis method with neural sequence models and evaluate their strengths, weaknesses, performance, interpretability, training cost, and ability to handle contextual sentiment.
