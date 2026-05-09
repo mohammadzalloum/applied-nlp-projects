@@ -50,7 +50,7 @@ TECHNOLOGY
 ```
 ---
 
-3. Sentiment Analysis & Classification Evaluation
+### 3. Sentiment Analysis & Classification Evaluation
 
 Folder: 03-Sentiment Analysis & Classification Evaluation( Vader Vs RNNGRU)
 
