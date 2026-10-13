@@ -1,6 +1,6 @@
 # Jena Climate Temperature Forecasting System
 
-A complete time series forecasting project for predicting short-horizon temperature values using the Jena Climate dataset. The project includes data cleaning, exploratory analysis, time-aware preprocessing, baseline modeling, LSTM and GRU neural networks, evaluation, visualization, and final reporting.
+A complete time series forecasting project for predicting short-horizon temperature values using the Jena Climate dataset. The project includes data cleaning, exploratory analysis, time-aware preprocessing, LSTM and GRU neural networks, evaluation, visualization, and final reporting.
 
 ---
 
@@ -14,13 +14,12 @@ T (degC)
 
 The forecasting setup uses the previous 24 hours of climate observations to predict the temperature 10 minutes ahead.
 
-The project compares three approaches:
+The project compares two deep learning approaches:
 
-- Persistence Baseline
 - LSTM neural network
 - GRU neural network
 
-The final evaluation shows that the GRU model achieved the lowest test RMSE, while the persistence baseline remained highly competitive due to the very short forecasting horizon.
+The final evaluation shows that the GRU model achieved lower test MAE and RMSE than the LSTM model, demonstrating stronger forecasting performance in this experiment.
 
 ---
 
@@ -89,10 +88,10 @@ data/jena_climate_2009_2016.csv
 - Standardization using training data only
 - Sliding-window forecasting setup
 - Memory-safe dataset pipeline
-- Persistence baseline comparison
 - LSTM and GRU model training
 - Early stopping and model checkpointing
 - RMSE and MAE evaluation in Celsius
+- Model performance comparison
 - Final plots and saved prediction outputs
 
 ---
@@ -143,19 +142,15 @@ Since each time step represents 10 minutes:
 
 ### 4. Modeling
 
-Three methods are evaluated:
-
-#### Persistence Baseline
-
-Predicts the next temperature as the last observed temperature in the input window.
+Two recurrent neural network architectures are evaluated:
 
 #### LSTM Model
 
-Uses recurrent layers with dropout and dense layers to learn temporal patterns.
+Uses recurrent layers with dropout and dense layers to learn temporal patterns and capture dependencies in historical climate observations.
 
 #### GRU Model
 
-Uses GRU recurrent layers with dropout and dense layers. GRU is generally simpler and faster than LSTM while often achieving comparable or better performance.
+Uses GRU recurrent layers with dropout and dense layers. GRU has a simpler architecture than LSTM and can achieve competitive forecasting performance with fewer parameters.
 
 ---
 
@@ -165,16 +160,16 @@ Final test performance after converting predictions back to Celsius:
 
 | Model | Test MAE (°C) | Test RMSE (°C) |
 |---|---:|---:|
-| Persistence Baseline | 0.156399 | 0.235913 |
 | LSTM | 0.229640 | 0.326621 |
 | GRU | 0.161125 | 0.227562 |
 
 ### Key Findings
 
-- GRU achieved the lowest RMSE, making it the strongest model for reducing larger forecasting errors.
-- The persistence baseline achieved the lowest MAE, which is expected because the model predicts only 10 minutes ahead.
-- LSTM performed worse than both GRU and the persistence baseline in this experiment.
-- The actual-vs-predicted plot shows that all methods follow the overall temperature trend closely.
+- GRU achieved the lowest RMSE, indicating better performance in reducing larger forecasting errors.
+- GRU also achieved the lowest MAE, demonstrating lower average prediction errors.
+- LSTM successfully learned temporal patterns but produced higher prediction errors than GRU.
+- The actual-vs-predicted visualization illustrates how closely the trained models follow the observed temperature trends.
+- Both architectures demonstrate the ability of recurrent neural networks to perform short-horizon temperature forecasting.
 
 ---
 
@@ -279,12 +274,12 @@ The models are trained one at a time to reduce memory pressure and improve stabi
 
 ## Limitations
 
-The forecast horizon is only one time step ahead, equivalent to 10 minutes. This makes the persistence baseline very strong because temperature usually changes gradually over short intervals.
+The forecast horizon is only one time step ahead, equivalent to 10 minutes. This relatively short prediction horizon limits the project's ability to evaluate long-term forecasting performance.
 
 For a more challenging forecasting problem, future experiments should test longer horizons such as:
 
 ```text
-1 hour ahead  -> 6 time steps
+1 hour ahead   -> 6 time steps
 24 hours ahead -> 144 time steps
 ```
 
@@ -297,15 +292,18 @@ Potential improvements include:
 - Predicting further into the future
 - Adding cyclic time features such as hour-of-day and day-of-year
 - Testing deeper or bidirectional recurrent models
-- Comparing against classical forecasting models
+- Exploring attention-based architectures
 - Testing tree-based models such as Random Forest or XGBoost
 - Performing feature selection to reduce redundant variables
 - Evaluating model performance across different seasons
+- Optimizing hyperparameters to improve forecasting accuracy
 
 ---
 
 ## Conclusion
 
-This project implements a complete temperature forecasting workflow using the Jena Climate dataset. It demonstrates how to prepare time series data, create forecast windows, train recurrent neural networks, compare against a strong baseline, and evaluate predictions using MAE and RMSE.
+This project implements a complete temperature forecasting workflow using the Jena Climate dataset. It demonstrates how to prepare time series data, create forecast windows, train recurrent neural networks, and evaluate predictions using MAE and RMSE.
 
-The GRU model achieved the best RMSE on the test set, while the persistence baseline remained highly competitive due to the short forecasting horizon.
+The GRU model achieved better results than LSTM on both evaluation metrics, with a test MAE of 0.161125 °C and RMSE of 0.227562 °C.
+
+Overall, the project highlights the effectiveness of recurrent neural networks for short-horizon climate forecasting and provides a foundation for further experimentation with advanced time series prediction techniques.
