@@ -1,6 +1,7 @@
 # Applied NLP Projects
 
 A collection of applied Natural Language Processing (NLP) projects covering text preprocessing, Word2Vec, named entity recognition, POS tagging, rule-based entity extraction, sentiment analysis, recurrent neural networks, model evaluation, and NLP visualization.
+
 ---
 
 ## Projects
@@ -48,17 +49,18 @@ This project applies a complete NLP pipeline using spaCy on a multi-domain text 
 ```text
 TECHNOLOGY
 ```
+
 ---
 
 ### 3. Sentiment Analysis & Classification Evaluation
 
-Folder: 03-Sentiment Analysis & Classification Evaluation( Vader Vs RNNGRU)
+**Folder:** `03-Sentiment Analysis & Classification Evaluation( Vader Vs RNNGRU)`
 
 This project compares rule-based sentiment analysis with recurrent neural network models using two different sentiment datasets.
 
 The project includes a VADER sentiment analysis workflow for Twitter tweets and neural sentiment classification models on IMDB movie reviews using Simple RNN, LSTM, and GRU.
 
-Main topics:
+**Main topics:**
 
 - Sentiment analysis
 - Text preprocessing
@@ -72,14 +74,14 @@ Main topics:
 - Accuracy and loss curve visualization
 - Model comparison and critical analysis
 
-Models used:
+**Models used:**
 
 - VADER
 - Simple RNN
 - LSTM
 - GRU
 
-Generated outputs:
+**Generated outputs:**
 
 - VADER predictions and metrics
 - Classification reports
@@ -89,10 +91,8 @@ Generated outputs:
 - Final performance comparison table
 - Critical analysis report
 
-Goal:
+**Goal:**  
 Compare a lexicon-based sentiment analysis method with neural sequence models and evaluate their strengths, weaknesses, performance, interpretability, training cost, and ability to handle contextual sentiment.
-
----
 
 ---
 
@@ -102,7 +102,7 @@ Compare a lexicon-based sentiment analysis method with neural sequence models an
 
 This project implements an end-to-end time series forecasting system using the Jena Climate dataset. The goal is to predict future temperature values based on historical climate measurements recorded at 10-minute intervals.
 
-The project includes data cleaning, exploratory analysis, time-aware preprocessing, memory-safe forecast window generation, baseline modeling, LSTM and GRU model training, evaluation, visualization, and final reporting.
+The project includes data cleaning, exploratory analysis, time-aware preprocessing, memory-safe forecast window generation, LSTM and GRU model training, evaluation, visualization, and final reporting.
 
 **Main topics:**
 
@@ -112,7 +112,6 @@ The project includes data cleaning, exploratory analysis, time-aware preprocessi
 - Chronological train/validation/test splitting
 - Feature scaling without data leakage
 - Sliding window sequence generation
-- Persistence baseline modeling
 - LSTM modeling
 - GRU modeling
 - Early stopping and model checkpointing
@@ -122,7 +121,6 @@ The project includes data cleaning, exploratory analysis, time-aware preprocessi
 
 **Models used:**
 
-- Persistence Baseline
 - LSTM
 - GRU
 
@@ -141,9 +139,8 @@ The project includes data cleaning, exploratory analysis, time-aware preprocessi
 
 | Model | Test MAE (°C) | Test RMSE (°C) |
 |---|---:|---:|
-| Persistence Baseline | 0.156399 | 0.235913 |
 | LSTM | 0.229640 | 0.326621 |
 | GRU | 0.161125 | 0.227562 |
 
 **Goal:**  
-Build a practical temperature forecasting pipeline, compare recurrent neural network models against a strong baseline, and evaluate how well LSTM and GRU models can predict short-horizon climate values.
+Build a practical temperature forecasting pipeline, compare LSTM and GRU models, and evaluate their effectiveness in predicting short-horizon climate values.
